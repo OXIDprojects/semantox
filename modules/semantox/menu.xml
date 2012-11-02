@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+	<OXMENU id="NAVIGATION_ESHOPADMIN">
+		<MAINMENU id="mxmainmenu">
+			<SUBMENU id="mxcoresett" cl="shop" list="shop_list">
+				<TAB id="SOX_MENU_SEMANTOX" cl="sox_admin_shop" />
+			</SUBMENU>
+		</MAINMENU>
+		<MAINMENU id="mxshopsett">
+			<SUBMENU id="mxpaymeth" cl="admin_payment" list="payment_list">
+				<TAB id="SOX_MENU_SEMANTOX" cl="sox_admin_payment" />
+			</SUBMENU>
+			<SUBMENU id="mxshippingset" cl="deliveryset" list="deliveryset_list">
+				<TAB id="SOX_MENU_SEMANTOX" cl="sox_admin_deliveryset" />
+			</SUBMENU>
+		</MAINMENU>
+	</OXMENU>
+</OX>
